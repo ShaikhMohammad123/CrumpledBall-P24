@@ -6,14 +6,14 @@ var engine, world;
 var box1,box2,box3,paper;
 
 function setup(){
-    var canvas = createCanvas(800,700);
+    var canvas = createCanvas(800,600);
     engine = Engine.create();
     world = engine.world;
 
-    box1 = new Box(600,680,100,20);
-    box2 = new Box(660,670,20,80);
-    box3 = new Box(540,670,20,80);
-    paper = new Paper(100,680,10);
+    box1 = new Box(600,580,100,20);
+    box2 = new Box(660,570,20,80);
+    box3 = new Box(540,570,20,80);
+    paper = new Paper(100,580,10);
     ground = new Ground(400,height,800,20)
 }
 
